@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Django
+/logs/
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# IDE Configuration Files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Coverage and Test Files
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Documentation Files
+docs/_build/
+doc/build/
+
+# Compiled Translation Files
+*.mo
+*.pot
+
+# Dependency Files
+requirements.txt.lock
+
+# Docker Configuration Files
+docker-compose.override.yml
+
+# Deployment Files
+.env.dev
+.env.prod
+.env.staging
+
+# Custom Files
+*.debug.py
+/meta/
+*.pdf
+output_pdfs/
